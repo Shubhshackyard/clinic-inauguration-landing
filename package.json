@@ -1,0 +1,23 @@
+{
+  "name": "clinic-inauguration-landing",
+  "version": "1.0.0",
+  "description": "Landing page for the clinic inauguration event.",
+  "main": "index.html",
+  "scripts": {
+    "start": "live-server .",
+    "build": "echo 'Build step not defined'",
+    "test": "echo 'No tests defined'"
+  },
+  "keywords": [
+    "clinic",
+    "inauguration",
+    "landing",
+    "event"
+  ],
+  "author": "Your Name",
+  "license": "MIT",
+  "dependencies": {},
+  "devDependencies": {
+    "live-server": "^1.2.1"
+  }
+}

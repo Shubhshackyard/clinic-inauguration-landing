@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dr. Umesh Kumar - Clinic Inauguration | MD Medicine </title>
+    
+    <!-- Favicon - Updated to match available files -->
+    <link rel="apple-touch-icon" sizes="180x180" href="src/assets/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="src/assets/favicon/favicon-96x96.png">
+    <link rel="icon" type="image/x-icon" href="src/assets/favicon/favicon.ico">
+    <link rel="icon" type="image/svg+xml" href="src/assets/favicon/favicon.svg">
+    <link rel="manifest" href="src/assets/favicon/site.webmanifest">
+    <meta name="msapplication-TileColor" content="#4FACAD">
+    <meta name="theme-color" content="#ffffff">
+    
+    <!-- Social Media Meta Tags -->
+    <meta property="og:title" content="Dr. Umesh Kumar's Clinic Inauguration | MD Medicine | Diabetologist">
+    <meta property="og:description" content="Join us for the grand inauguration of Sri Sai Wellness Clinic, featuring comprehensive internal medicine care by Dr. Umesh Kumar, MD Medicine & Diabetologist">
+    <meta property="og:image" content="https://yourdomain.com/src/assets/images/social-card.jpg">
+    <meta property="og:url" content="https://yourdomain.com">
+    <meta property="og:type" content="website">
+    
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Dr. Umesh Kumar's Clinic Inauguration">
+    <meta name="twitter:description" content="Join us on April 3rd, 2025 for the grand inauguration of Sri Sai Wellness Clinic in Patna">
+    <meta name="twitter:image" content="https://yourdomain.com/src/assets/images/social-card.jpg">
+    
+    <!-- Existing CSS links -->
+    <link rel="stylesheet" href="src/css/normalize.css">
+    <link rel="stylesheet" href="src/css/main.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&family=Playfair+Display:wght@500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Loading Animation -->
+    <div id="loader-wrapper">
+        <div class="loader-content">
+            <div class="pulse-container">
+                <div class="pulse-icon">
+                    <svg width="80" height="80" viewBox="0 0 100 100">
+                        <path class="pulse-path" d="M 10,50 Q 25,38 40,50 T 70,50 T 100,50" fill="none" stroke="#4FACAD" stroke-width="5"/>
+                    </svg>
+                </div>
+            </div>
+            <div class="clinic-name">Sri Sai Wellness Clinic</div>
+            <div class="loading-text">Opening Soon...</div>
+        </div>
+    </div>
+    
+    <!-- Add Confetti Canvas -->
+    <canvas id="confetti-canvas"></canvas>
+    
+    <header>
+        <div class="container">
+            <div class="logo">
+                <h3>Sri Sai Wellness Clinic</h3>
+            </div>
+            <div class="cta-button">
+                <a href="#rsvp" class="btn primary-btn">RSVP Now</a>
+            </div>
+        </div>
+    </header>
+
+    <section id="hero" class="hero-section">
+        <div class="container">
+            <div class="hero-content">
+                <div class="hero-text">
+                    <span class="announcement">GRAND INAUGURATION</span>
+                    <h1>Dr. Umesh Kumar's<br><span class="highlight">Internal Medicine</span> Clinic</h1>
+                    <div class="credentials">
+                        <span class="credential-badge">MBBS</span>
+                        <span class="credential-badge">MD (Medicine)</span>
+                        <span class="credential-badge">Diabetologist</span>
+                    </div>
+                    <p class="hero-description">We're excited to announce the opening of our state-of-the-art Internal Medicine clinic dedicated to providing comprehensive care with expertise and compassion.</p>
+                    <div class="hero-cta">
+                        <a href="#details" class="btn primary-btn">Event Details</a>
+                        <a href="#clinic" class="btn secondary-btn">About Our Clinic</a>
+                    </div>
+                </div>
+                <div class="hero-image">
+                    <div class="image-container">
+                        <img src="src/assets/images/doctor-profile.webp" alt="Dr. Umesh Kumar - CONSULTANT PHYSICIAN AND DIABETOLOGIST">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="details" class="event-details">
+        <div class="container">
+            <h2>Join Us For The Inauguration</h2>
+            <div class="details-grid">
+                <div class="detail-card">
+                    <div class="icon">📅</div>
+                    <h3>Date</h3>
+                    <p>April 3rd, 2025</p>
+                    <p class="detail-subtitle">Thursday</p>
+                </div>
+                <div class="detail-card">
+                    <div class="icon">🕙</div>
+                    <h3>Time</h3>
+                    <p> 12 PM Onwards</p>
+                    <p class="detail-subtitle">Inauguration Ceremony</p>
+                </div>
+                <div class="detail-card">
+                    <div class="icon">📍</div>
+                    <h3>Location</h3>
+                    <p>H. No. - L 1/1, Shiv Mandir, Besides Rajdhani Gas Agency, Near St. Kiren's Primary School, S.K. Puri, Boring Road</p>
+                    <p class="detail-subtitle">Patna, Bihar - 800001</p>
+                </div>
+            </div>
+            
+            <!-- Google Maps Embed -->
+            <div class="map-container">
+                <h3>Find Us</h3>
+                <div class="map-controls">
+                    <button id="toggle-map-btn" class="btn secondary-btn">
+                        <span class="show-text">Show Map</span>
+                        <span class="hide-text">Hide Map</span>
+                    </button>
+                    <a href="https://www.google.com/maps/dir/?api=1&destination=S.K.+Puri+Boring+Road+Patna+Bihar+800001" 
+                       target="_blank" 
+                       class="btn primary-btn get-directions-btn">
+                        📍 Get Directions
+                    </a>
+                </div>
+                <div id="map-wrapper" class="google-map hidden">
+                    <iframe 
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3598.0389549707174!2d85.12605137618727!3d25.60971411661835!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39ed58dce6732867%3A0x41086de8f999cb06!2sS.K.%20Puri%2C%20Boring%20Rd%2C%20Patna%2C%20Bihar%20800001!5e0!3m2!1sen!2sin!4v1711550173746!5m2!1sen!2sin" 
+                        width="600" 
+                        height="450" 
+                        style="border:0;" 
+                        allowfullscreen="" 
+                        loading="lazy" 
+                        referrerpolicy="no-referrer-when-downgrade">
+                    </iframe>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="clinic" class="clinic-info">
+        <div class="container">
+            <div class="clinic-content">
+                <div class="clinic-text">
+                    <h2>Expert Internal Medicine Care</h2>
+                    <p>Our clinic specializes in comprehensive internal medicine services, focusing on prevention, diagnosis, and treatment of adult diseases.</p>
+                    
+                    <h3>Our Services</h3>
+                    <ul class="services-list">
+                        <li>❤️ Cardiovascular Health</li>
+                        <li>🫁 Respiratory Care</li>
+                        <li>🧠 Neurological Assessments</li>
+                        <li>🩺 Chronic Disease Management</li>
+                        <li>📋 Preventive Medicine</li>
+                        <li>🏥 General Consultations</li>
+                    </ul>
+                </div>
+                <div class="doctor-profile">
+                    <div class="doctor-image">
+                        <img src="src/assets/images/doctor-profile.webp" alt="Dr. Umesh Kumar - Profile">
+                    </div>
+                    <div class="doctor-details">
+                        <h3>Dr. Umesh Kumar</h3>
+                        <p class="doctor-title">MBBS | MD (Medicine) | Diabetologist</p>
+                        <p class="doctor-bio">With over [X] years of experience in internal medicine, Dr. Umesh Kumar brings expertise in diagnosing and treating complex medical conditions, with a patient-centered approach to healthcare.</p>
+                        <div class="doctor-credentials">
+                            <span>MD Medicine from Patna Medical College, Patna</span>
+                            <span>MBBS from from Patna Medical College, Patna</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="rsvp" class="rsvp-section">
+        <div class="container">
+            <h2>Join Us for the Celebration</h2>
+            <p>We would be honored to have your presence at this special occasion</p>
+            
+            <div class="whatsapp-rsvp">
+                <p class="rsvp-instructions">Please accept our Invitation with a quick RSVP message</p>
+                
+                <div class="input-fields">
+                    <div class="form-group">
+                        <input type="text" id="guest-name" placeholder="Your Full Name" required>
+                    </div>
+                    <!-- <div class="form-group">
+                        <select id="guest-count" required>
+                            <option value="" disabled selected>Number of Guests</option>
+                            <option value="1">Just Me</option>
+                            <option value="2">2 People</option>
+                            <option value="3">3 People</option>
+                            <option value="4">4 People</option>
+                        </select>
+                    </div> -->
+                </div>
+                
+                <a href="#" id="whatsapp-button" class="btn primary-btn whatsapp-btn">
+                    📱 Accept Invitation via WhatsApp
+                </a>
+                <p class="note">*A pre-filled message will open in your WhatsApp application</p>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Dr. Umesh Kumar - Sri Sai Wellness Clinic. All rights reserved.</p>
+    </footer>
+    <script src="src/js/main.js"></script>
+</body>
+</html>
